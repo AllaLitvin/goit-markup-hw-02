@@ -1,0 +1,44 @@
+.body {
+  --font-family: "Roboto", sans-serif;
+  /*главный цвет текста
+  black-color: #000000; */
+
+  /*вторичный цвет текста"
+  very-dark-gray-color: #212121; */
+
+  /*остальные цвета текста"
+  dark-grey-color: #757575;
+  blue: #2196f3; */
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.studio {
+  font-family: "Ralewey", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.site-menu a {
+  color: #212121;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-menu .link:hover,
+.site-menu .link:focus {
+  color: #2196f3;
+}
