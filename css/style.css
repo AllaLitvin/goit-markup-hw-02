@@ -5,7 +5,7 @@
   --dark-grey-color: #757575;
   --blue: #2196f3;
   --white: #ffffff;
-  --background: #f5f4fa;
+  --forbutton: #f5f4fa;
 }
 
 /*main text color
@@ -70,10 +70,6 @@ color: rgba(255, 255, 255, 0.6); */
   color: var(--blue);
 }
 
-contacts:hover {
-  color: var(--blue);
-}
-
 /* hero-title*/
 
 .hero-title {
@@ -109,6 +105,7 @@ contacts:hover {
   letter-spacing: 0.03em;
   color: var(--very-dark-grey-color);
 }
+/*company*/
 
 .section-item.company {
   background-color: var(--dark-grey-color);
@@ -178,14 +175,57 @@ contacts:hover {
 }
 
 .button.secondary {
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.03em;
   color: var(--very-dark-grey-color);
-  background-color: var(--background);
+  background-color: var(--forbutton);
 }
 
+.blink:hover,
+.blink:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.button.title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /*active image */
-.cocial {
+.social {
+  background-color: var(--blue);
+}
+
+/*projects*/
+.invisible-heading {
+  display: none;
+}
+
+.projects a {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-style: normal;
+}
+
+.projects .name {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--very-dark-grey-color);
+}
+
+.projects .type {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--dark-grey-color);
+}
+
+.projects .description {
+  color: var(--white);
   background-color: var(--blue);
 }
