@@ -3,42 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    
   </head>
   <body>
 
-    <!--HEAD-->
-    <header class="page-header">
-      <a href="portfolio.html"> <span>Web</span> Studio </a>
-
-      <!-- NAVIGATION -->
-      <nav>
-        <ul>
-          <li><a href="index.html">Студия</a></li>
-          <li><a href="portfolio.html">Портфолио</a></li>
-          <li><a href="/контакты">Контакты</a></li>
+    <body class="body">
+      <!--HEAD-->
+      <header class="page-header">
+        <a href="index.html" class="studio"> <span class="logo">Web</span> Studio </a>
+    
+        <!-- NAVIGATION -->
+        <nav>
+    
+          <ul class="site-menu list">
+            <li><a href="./index.html" class="link"> Студия</a></li>
+            <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+            <li><a href="/контакты" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+    
+        <!--CONTACTS-->
+        <ul class="site-menu list">
+          <li><a href="malito:info@devstudio.com" class="link"><img src="img/envelope.svg" alt="envelope" class="contact">
+              info@devstudio.com </a></li>
+          <li><a href="tel:+380961111111" class="link"><img src="img/smartphone.svg" alt="smartphone" class="contact">
+              +380961111111</a> </li>
         </ul>
-      </nav>
+      </header>
 
-      <!--CONTACTS-->
-      <ul>
-        <li>
-          <img src="/img/envelope.svg" alt="envelope" /><a
-            href="malito:info@devstudio.com"
-          >
-            info@devstudio.com
-          </a>
-        </li>
-        <li>
-          <img src="/img/smartphone.svg" alt="smartphone" /><a
-            href="tel:+380961111111"
-            >+380961111111</a
-          >
-        </li>
-      </ul>
-    </header>
 
     <!--PROJECTS-->
     <main>
@@ -46,20 +41,20 @@
         <section>
           <ul>
             <li>
-              <button type="button"><h1>Все</h1></button>
+              <button type="button secondary"><h1>Все</h1></button>
             </li>
             <li>
-              <button type="button"><h2>Веб-сайты</h2></button>
+              <button type="button secondary"><h2>Веб-сайты</h2></button>
             </li>
             <li>
-              <button type="button"><h3>Приложения</h3></button>
+              <button type="button secondary"><h3>Приложения</h3></button>
             </li>
             <li>
-              <button type="button"><h4>Дизайны</h4></button>
+              <button type="button secondary"><h4>Дизайны</h4></button>
             </li>
             <li>
               <!--цвет фона, ходер и фокус-->
-              <button type="button"><h5>Маркетинг</h5></button>
+              <button type="button secondary"><h5>Маркетинг</h5></button>
             </li>
           </ul>
 
