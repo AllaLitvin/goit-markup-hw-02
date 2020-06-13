@@ -244,6 +244,12 @@ background color footer: #2F303A;*/
 .button.secondary {
   color: var(--very-dark-grey-color);
   background-color: var(--forbutton);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .blink:hover,
@@ -269,6 +275,6 @@ background color footer: #2F303A;*/
 }
 
 /*active image */
-.social {
+.social:hover {
   background-color: var(--blue);
 }
